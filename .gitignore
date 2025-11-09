@@ -1,0 +1,25 @@
+@"
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Entornos
+.venv/
+.env/
+.conda/
+
+# Archivos temporales / runtime
+tmp/
+outputs/
+
+# Videos pesados de demo (no subirlos por defecto)
+demo/*.avi
+demo/*.mkv
+demo/*_raw.mp4
+
+# SO
+.DS_Store
+Thumbs.db
+"@ | Out-File -Encoding utf8 .gitignore
